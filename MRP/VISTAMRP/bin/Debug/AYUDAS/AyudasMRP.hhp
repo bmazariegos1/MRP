@@ -1,0 +1,19 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=AyudasMRP.chm
+Contents file=AyudaMRP.hhc
+Default Window=Ayudas MRP
+Display compile progress=No
+Language=0x80a Español (México)
+
+[WINDOWS]
+Ayudas MRP="Ayudas","AyudaMRP.hhc",,"AyudaActivos.html","AyudaActivos.html",,,,,0x2120,,0x3006,,,,,,,,0
+
+
+[FILES]
+AyudaActivos.html
+AyudaInventarios.html
+AyudaProduccion.html
+
+[INFOTYPES]
+

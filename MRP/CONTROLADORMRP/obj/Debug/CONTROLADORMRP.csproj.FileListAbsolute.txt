@@ -1,0 +1,45 @@
+C:\Users\Brian\Desktop\PROTOPRO\MRP\CONTROLADORMRP\bin\Debug\CONTROLADORMRP.dll
+C:\Users\Brian\Desktop\PROTOPRO\MRP\CONTROLADORMRP\bin\Debug\CONTROLADORMRP.pdb
+C:\Users\Brian\Desktop\PROTOPRO\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csprojAssemblyReference.cache
+C:\Users\Brian\Desktop\PROTOPRO\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CoreCompileInputs.cache
+C:\Users\Brian\Desktop\PROTOPRO\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.dll
+C:\Users\Brian\Desktop\PROTOPRO\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.pdb
+C:\Users\Brian\Desktop\PROTOPRO\MRP\CONTROLADORMRP\bin\Debug\MODELOMRP.dll
+C:\Users\Brian\Desktop\PROTOPRO\MRP\CONTROLADORMRP\bin\Debug\MODELOMRP.pdb
+C:\Users\Brian\Desktop\PROTOPRO\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CopyComplete
+C:\Users\Brian\Desktop\Analisis2\MRP\CONTROLADORMRP\bin\Debug\CONTROLADORMRP.dll
+C:\Users\Brian\Desktop\Analisis2\MRP\CONTROLADORMRP\bin\Debug\CONTROLADORMRP.pdb
+C:\Users\Brian\Desktop\Analisis2\MRP\CONTROLADORMRP\bin\Debug\MODELOMRP.dll
+C:\Users\Brian\Desktop\Analisis2\MRP\CONTROLADORMRP\bin\Debug\MODELOMRP.pdb
+C:\Users\Brian\Desktop\Analisis2\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csprojAssemblyReference.cache
+C:\Users\Brian\Desktop\Analisis2\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CoreCompileInputs.cache
+C:\Users\Brian\Desktop\Analisis2\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CopyComplete
+C:\Users\Brian\Desktop\Analisis2\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.dll
+C:\Users\Brian\Desktop\Analisis2\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.pdb
+C:\Users\CARLOS JAVIER\Analisis2\MRP\CONTROLADORMRP\bin\Debug\CONTROLADORMRP.dll
+C:\Users\CARLOS JAVIER\Analisis2\MRP\CONTROLADORMRP\bin\Debug\CONTROLADORMRP.pdb
+C:\Users\CARLOS JAVIER\Analisis2\MRP\CONTROLADORMRP\bin\Debug\MODELOMRP.dll
+C:\Users\CARLOS JAVIER\Analisis2\MRP\CONTROLADORMRP\bin\Debug\MODELOMRP.pdb
+C:\Users\CARLOS JAVIER\Analisis2\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csprojAssemblyReference.cache
+C:\Users\CARLOS JAVIER\Analisis2\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CoreCompileInputs.cache
+C:\Users\CARLOS JAVIER\Analisis2\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CopyComplete
+C:\Users\CARLOS JAVIER\Analisis2\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.dll
+C:\Users\CARLOS JAVIER\Analisis2\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.pdb
+C:\Users\CARLOS JAVIER\MRP\MRP\CONTROLADORMRP\bin\Debug\CONTROLADORMRP.dll
+C:\Users\CARLOS JAVIER\MRP\MRP\CONTROLADORMRP\bin\Debug\CONTROLADORMRP.pdb
+C:\Users\CARLOS JAVIER\MRP\MRP\CONTROLADORMRP\bin\Debug\MODELOMRP.dll
+C:\Users\CARLOS JAVIER\MRP\MRP\CONTROLADORMRP\bin\Debug\MODELOMRP.pdb
+C:\Users\CARLOS JAVIER\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csprojAssemblyReference.cache
+C:\Users\CARLOS JAVIER\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CoreCompileInputs.cache
+C:\Users\CARLOS JAVIER\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CopyComplete
+C:\Users\CARLOS JAVIER\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.dll
+C:\Users\CARLOS JAVIER\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.pdb
+D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\bin\Debug\CONTROLADORMRP.dll
+D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\bin\Debug\CONTROLADORMRP.pdb
+D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\bin\Debug\MODELOMRP.dll
+D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\bin\Debug\MODELOMRP.pdb
+D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csprojAssemblyReference.cache
+D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CoreCompileInputs.cache
+D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CopyComplete
+D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.dll
+D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.pdb

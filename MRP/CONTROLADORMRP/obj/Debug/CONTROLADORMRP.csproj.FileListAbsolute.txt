@@ -34,12 +34,3 @@ C:\Users\CARLOS JAVIER\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.Co
 C:\Users\CARLOS JAVIER\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CopyComplete
 C:\Users\CARLOS JAVIER\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.pdb
-D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\bin\Debug\CONTROLADORMRP.dll
-D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\bin\Debug\CONTROLADORMRP.pdb
-D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\bin\Debug\MODELOMRP.dll
-D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\bin\Debug\MODELOMRP.pdb
-D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csprojAssemblyReference.cache
-D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CoreCompileInputs.cache
-D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CopyComplete
-D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.dll
-D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.pdb

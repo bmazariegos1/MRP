@@ -22,9 +22,3 @@ C:\Users\CARLOS JAVIER\MRP\MRP\MODELOMRP\obj\Debug\MODELOMRP.csprojAssemblyRefer
 C:\Users\CARLOS JAVIER\MRP\MRP\MODELOMRP\obj\Debug\MODELOMRP.csproj.CoreCompileInputs.cache
 C:\Users\CARLOS JAVIER\MRP\MRP\MODELOMRP\obj\Debug\MODELOMRP.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\MODELOMRP\obj\Debug\MODELOMRP.pdb
-D:\Escritorio\Proyectos\MRP\MRP\MODELOMRP\bin\Debug\MODELOMRP.dll
-D:\Escritorio\Proyectos\MRP\MRP\MODELOMRP\bin\Debug\MODELOMRP.pdb
-D:\Escritorio\Proyectos\MRP\MRP\MODELOMRP\obj\Debug\MODELOMRP.csprojAssemblyReference.cache
-D:\Escritorio\Proyectos\MRP\MRP\MODELOMRP\obj\Debug\MODELOMRP.csproj.CoreCompileInputs.cache
-D:\Escritorio\Proyectos\MRP\MRP\MODELOMRP\obj\Debug\MODELOMRP.dll
-D:\Escritorio\Proyectos\MRP\MRP\MODELOMRP\obj\Debug\MODELOMRP.pdb

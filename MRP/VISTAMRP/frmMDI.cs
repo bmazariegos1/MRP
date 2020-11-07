@@ -45,7 +45,7 @@ namespace VISTAMRP
             if (seguridad.PermisosAcceso("3302", txtUsuario.Text) == 1)
             {
                 bit.user(txtUsuario.Text);
-                frmActivos ventana = new frmActivos(txtUsuario.Text);
+                frmProductos ventana = new frmProductos(txtUsuario.Text);
                 ventana.MdiParent = this;
                 ventana.Show();
             }
@@ -55,12 +55,12 @@ namespace VISTAMRP
             }
         }
 
-        private void tiposDeProductosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void CategoriaDeProductosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (seguridad.PermisosAcceso("3303", txtUsuario.Text) == 1)
             {
                 bit.user(txtUsuario.Text);
-                frmTipoInventario ventana = new frmTipoInventario(txtUsuario.Text);
+                frmCategoriaProducto ventana = new frmCategoriaProducto(txtUsuario.Text);
                 ventana.MdiParent = this;
                 ventana.Show();
             }
@@ -76,6 +76,21 @@ namespace VISTAMRP
             {
                 bit.user(txtUsuario.Text);
                 frmEstadoProduccion ventana = new frmEstadoProduccion(txtUsuario.Text);
+                ventana.MdiParent = this;
+                ventana.Show();
+            }
+            else
+            {
+                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
+            }
+        }
+
+        private void lineaDeProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (seguridad.PermisosAcceso("3305", txtUsuario.Text) == 1)
+            {
+                bit.user(txtUsuario.Text);
+                frmLineaProducto ventana = new frmLineaProducto(txtUsuario.Text);
                 ventana.MdiParent = this;
                 ventana.Show();
             }

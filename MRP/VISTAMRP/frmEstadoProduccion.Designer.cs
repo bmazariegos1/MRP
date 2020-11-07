@@ -195,7 +195,7 @@
             this.MaximizeBox = false;
             this.Name = "frmEstadoProduccion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "3304 - Estados de Producción";
+            this.Text = "3304 - Mantenimiento Estados de Producción";
             this.gbxEstado.ResumeLayout(false);
             this.gbxEstado.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEstadoP)).EndInit();

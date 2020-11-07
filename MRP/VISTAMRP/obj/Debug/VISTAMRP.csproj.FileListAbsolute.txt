@@ -113,17 +113,14 @@ C:\Users\Brian\Desktop\Analisis2\MRP\VISTAMRP\bin\Debug\CapaControlador.pdb
 C:\Users\Brian\Desktop\Analisis2\MRP\VISTAMRP\bin\Debug\CapaModelo.pdb
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\VISTAMRP.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\VISTAMRP.pdb
-C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CapaVistaSeguridad.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CONTROLADORMRP.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CapaModeloNavegador.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CapaModeloSeguridad.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CapaVistaReporteador.dll
-C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CapaVista.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CapaModeloReporteador.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CapaControladorReporteador.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CrystalDecisions.Windows.Forms.dll
-C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CapaControlador.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CrystalDecisions.Shared.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
@@ -138,7 +135,6 @@ C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CrystalDecisions.ReportAppServ
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CrystalDecisions.ReportSource.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\AxShockwaveFlashObjects.dll
-C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CapaModelo.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\ShockwaveFlashObjects.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\stdole.dll
@@ -150,13 +146,9 @@ C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CONTROLADORMRP.pdb
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CapaModeloNavegador.pdb
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CapaModeloSeguridad.pdb
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CapaVistaReporteador.pdb
-C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CapaVista.pdb
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CapaModeloReporteador.pdb
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CapaControladorReporteador.pdb
-C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CapaControlador.pdb
-C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\CapaModelo.pdb
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.csprojAssemblyReference.cache
-C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmActivos.resources
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmControlCalidad.resources
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmDetalleReceta.resources
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmEmpleadoh.resources
@@ -168,13 +160,13 @@ C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmOrdenes.resources
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmProduccion.resources
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmRecetaEncabezado.resources
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmRecetas.resources
-C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmTipoInventario.resources
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.Properties.Resources.resources
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.csproj.GenerateResource.cache
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.csproj.CoreCompileInputs.cache
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.csproj.CopyComplete
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.dll
 C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.pdb
+<<<<<<< HEAD
 D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\bin\Debug\VISTAMRP.dll
 D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\bin\Debug\VISTAMRP.pdb
 D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\bin\Debug\CapaVistaSeguridad.dll
@@ -239,3 +231,13 @@ D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.csproj.CoreCompileIn
 D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.csproj.CopyComplete
 D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.dll
 D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.pdb
+C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmCategoriaProducto.resources
+C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmLineaProducto.resources
+C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmProductos.resources
+=======
+C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmProductos.resources
+C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmCategoriaProducto.resources
+C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmLineaProducto.resources
+>>>>>>> 3dfbd90fa96137925a44b3160192e0f423bcfaf9
+C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\MODELOMRP.dll
+C:\Users\CARLOS JAVIER\MRP\MRP\VISTAMRP\bin\Debug\MODELOMRP.pdb

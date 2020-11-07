@@ -49,8 +49,12 @@ namespace VISTAMRP
             if (seguridad.PermisosAcceso("3302", txtUsuario.Text) == 1)
             {
                 bit.user(txtUsuario.Text);
+<<<<<<< HEAD
                 bit.insert("Ingreso Manteniento Producto", 3302);
-                frmActivos ventana = new frmActivos(txtUsuario.Text);//esta instancia la usa el navegador 
+                frmProductos ventana = new frmProductos(txtUsuario.Text);//esta instancia la usa el navegador 
+=======
+                frmProductos ventana = new frmProductos(txtUsuario.Text);
+>>>>>>> 3dfbd90fa96137925a44b3160192e0f423bcfaf9
                 ventana.MdiParent = this;
                 ventana.Show();
             }
@@ -62,17 +66,23 @@ namespace VISTAMRP
             }
         }
 
-        private void tiposDeProductosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void CategoriaDeProductosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (seguridad.PermisosAcceso("3303", txtUsuario.Text) == 1)
             {
                 bit.user(txtUsuario.Text);
-                frmTipoInventario ventana = new frmTipoInventario(txtUsuario.Text);
+<<<<<<< HEAD
+                bit.insert("Ingreso a mantenimiento de categria de producto", 3303);
+=======
+>>>>>>> 3dfbd90fa96137925a44b3160192e0f423bcfaf9
+                frmCategoriaProducto ventana = new frmCategoriaProducto(txtUsuario.Text);
                 ventana.MdiParent = this;
                 ventana.Show();
             }
             else
             {
+                bit.user(txtUsuario.Text);
+                bit.insert("Trato de Ingreso a mantenimiento de categria de producto", 3303);
                 MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
             }
         }
@@ -212,5 +222,37 @@ namespace VISTAMRP
             }
         }
 
+        private void mantenimientoDeLineaDeProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (seguridad.PermisosAcceso("3305", txtUsuario.Text) == 1)
+            {
+                bit.user(txtUsuario.Text);
+                bit.insert("Ingreso a mantenimiento de linea de producto", 3305);
+                frmLineaProducto perfil = new frmLineaProducto(txtUsuario.Text);
+                perfil.MdiParent = this;
+                perfil.Show();
+            }
+            else
+            {
+                bit.user(txtUsuario.Text);
+                bit.insert("Trato de Ingresar A mantenimiento de linea de producto", 3305);
+                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
+            }
+        }
+
+        private void lineaDeProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (seguridad.PermisosAcceso("3305", txtUsuario.Text) == 1)
+            {
+                bit.user(txtUsuario.Text);
+                frmLineaProducto ventana = new frmLineaProducto(txtUsuario.Text);
+                ventana.MdiParent = this;
+                ventana.Show();
+            }
+            else
+            {
+                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
+            }
+        }
     }
 }

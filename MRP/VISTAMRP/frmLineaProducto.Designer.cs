@@ -1,6 +1,6 @@
 ﻿namespace VISTAMRP
 {
-    partial class frmTipoInventario
+    partial class frmLineaProducto
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
             this.lblDescripcion = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblCodigo = new System.Windows.Forms.Label();
-            this.dgvTipoInventarios = new System.Windows.Forms.DataGridView();
+            this.dgvLineaProducto = new System.Windows.Forms.DataGridView();
             this.gbxEstado = new System.Windows.Forms.GroupBox();
             this.rbtnDesabilitado = new System.Windows.Forms.RadioButton();
             this.rbtnHabilitado = new System.Windows.Forms.RadioButton();
@@ -40,7 +40,7 @@
             this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.txtEstado = new System.Windows.Forms.TextBox();
             this.navegador1 = new CapaVistaNavegador.Navegador();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvTipoInventarios)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLineaProducto)).BeginInit();
             this.gbxEstado.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,7 +49,7 @@
             this.lblDescripcion.AutoSize = true;
             this.lblDescripcion.BackColor = System.Drawing.Color.Transparent;
             this.lblDescripcion.Font = new System.Drawing.Font("Rockwell", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescripcion.Location = new System.Drawing.Point(14, 206);
+            this.lblDescripcion.Location = new System.Drawing.Point(48, 206);
             this.lblDescripcion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDescripcion.Name = "lblDescripcion";
             this.lblDescripcion.Size = new System.Drawing.Size(94, 17);
@@ -61,37 +61,37 @@
             this.lblNombre.AutoSize = true;
             this.lblNombre.BackColor = System.Drawing.Color.Transparent;
             this.lblNombre.Font = new System.Drawing.Font("Rockwell", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.Location = new System.Drawing.Point(42, 172);
+            this.lblNombre.Location = new System.Drawing.Point(11, 172);
             this.lblNombre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(66, 17);
+            this.lblNombre.Size = new System.Drawing.Size(131, 17);
             this.lblNombre.TabIndex = 22;
-            this.lblNombre.Text = "Nombre";
+            this.lblNombre.Text = "Nombre de Linea";
             // 
             // lblCodigo
             // 
             this.lblCodigo.AutoSize = true;
             this.lblCodigo.BackColor = System.Drawing.Color.Transparent;
             this.lblCodigo.Font = new System.Drawing.Font("Rockwell", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCodigo.Location = new System.Drawing.Point(48, 133);
+            this.lblCodigo.Location = new System.Drawing.Point(82, 133);
             this.lblCodigo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCodigo.Name = "lblCodigo";
             this.lblCodigo.Size = new System.Drawing.Size(60, 17);
             this.lblCodigo.TabIndex = 20;
             this.lblCodigo.Text = "Código";
             // 
-            // dgvTipoInventarios
+            // dgvLineaProducto
             // 
-            this.dgvTipoInventarios.AllowUserToOrderColumns = true;
-            this.dgvTipoInventarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTipoInventarios.Location = new System.Drawing.Point(444, 113);
-            this.dgvTipoInventarios.Margin = new System.Windows.Forms.Padding(2);
-            this.dgvTipoInventarios.Name = "dgvTipoInventarios";
-            this.dgvTipoInventarios.ReadOnly = true;
-            this.dgvTipoInventarios.RowHeadersWidth = 51;
-            this.dgvTipoInventarios.RowTemplate.Height = 24;
-            this.dgvTipoInventarios.Size = new System.Drawing.Size(606, 265);
-            this.dgvTipoInventarios.TabIndex = 2;
+            this.dgvLineaProducto.AllowUserToOrderColumns = true;
+            this.dgvLineaProducto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvLineaProducto.Location = new System.Drawing.Point(444, 113);
+            this.dgvLineaProducto.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvLineaProducto.Name = "dgvLineaProducto";
+            this.dgvLineaProducto.ReadOnly = true;
+            this.dgvLineaProducto.RowHeadersWidth = 51;
+            this.dgvLineaProducto.RowTemplate.Height = 24;
+            this.dgvLineaProducto.Size = new System.Drawing.Size(606, 265);
+            this.dgvLineaProducto.TabIndex = 2;
             // 
             // gbxEstado
             // 
@@ -139,7 +139,7 @@
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(100, 20);
             this.txtCodigo.TabIndex = 29;
-            this.txtCodigo.Tag = "pk_id_tipo_inventario";
+            this.txtCodigo.Tag = "pk_id_linea_producto";
             // 
             // txtNombre
             // 
@@ -147,7 +147,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(214, 20);
             this.txtNombre.TabIndex = 30;
-            this.txtNombre.Tag = "nombre_tipo_inventario";
+            this.txtNombre.Tag = "nombre_linea_producto";
             this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // txtDescripcion
@@ -157,7 +157,7 @@
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(214, 74);
             this.txtDescripcion.TabIndex = 31;
-            this.txtDescripcion.Tag = "descripcion_tipo_inventario";
+            this.txtDescripcion.Tag = "descripcion_linea_producto";
             // 
             // txtEstado
             // 
@@ -166,7 +166,7 @@
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(52, 20);
             this.txtEstado.TabIndex = 32;
-            this.txtEstado.Tag = "estado_tipo_inventario";
+            this.txtEstado.Tag = "estado_linea_producto";
             this.txtEstado.Visible = false;
             this.txtEstado.TextChanged += new System.EventHandler(this.txtEstado_TextChanged);
             // 
@@ -179,7 +179,7 @@
             this.navegador1.TabIndex = 33;
             this.navegador1.Load += new System.EventHandler(this.navegador1_Load);
             // 
-            // frmTipoInventario
+            // frmLineaProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -192,15 +192,15 @@
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.gbxEstado);
             this.Controls.Add(this.lblDescripcion);
-            this.Controls.Add(this.dgvTipoInventarios);
+            this.Controls.Add(this.dgvLineaProducto);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.lblCodigo);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
-            this.Name = "frmTipoInventario";
+            this.Name = "frmLineaProducto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "3303 -Tipos de Inventarios";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvTipoInventarios)).EndInit();
+            this.Text = "33305 -Mantenimiento Linea de Producto";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLineaProducto)).EndInit();
             this.gbxEstado.ResumeLayout(false);
             this.gbxEstado.PerformLayout();
             this.ResumeLayout(false);
@@ -212,7 +212,7 @@
         private System.Windows.Forms.Label lblDescripcion;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.Label lblCodigo;
-        private System.Windows.Forms.DataGridView dgvTipoInventarios;
+        private System.Windows.Forms.DataGridView dgvLineaProducto;
         private System.Windows.Forms.GroupBox gbxEstado;
         private System.Windows.Forms.RadioButton rbtnDesabilitado;
         private System.Windows.Forms.RadioButton rbtnHabilitado;

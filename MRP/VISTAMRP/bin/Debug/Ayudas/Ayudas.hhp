@@ -1,0 +1,22 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Ayudas.chm
+Contents file=Ayudas.hhc
+Default Window=Ayuda
+Display compile progress=No
+Language=0x80a Español (México)
+
+[WINDOWS]
+Ayuda="Ayuda MRP","Ayudas.hhc",,"AyudaLineadeP.html","AyudaLineadeP.html",,,,,0x2120,,0x3006,,,,,,,,0
+
+
+[FILES]
+AyudaCProductos.html
+AyudaEProduccion.html
+AyudaLineadeP.html
+AyudaProductos.html
+AyudaRecetaD.html
+AyudaRecetaEn.html
+
+[INFOTYPES]
+

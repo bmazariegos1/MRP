@@ -239,7 +239,7 @@ namespace VISTAMRP
             {
                 bit.user(txtUsuario.Text);
                 bit.insert("Ingreso a Mantenimiento De Receta", 3306);
-                frmRecetaEncabezado perfil = new frmRecetaEncabezado();
+                frmRecetaEncabezado perfil = new frmRecetaEncabezado(txtUsuario.Text);
                 perfil.MdiParent = this;
                 perfil.Show();
             }
@@ -257,7 +257,7 @@ namespace VISTAMRP
             {
                 bit.user(txtUsuario.Text);
                 bit.insert("Ingreso a Detalle De Receta", 3307);
-                frmRecetaEncabezado perfil = new frmRecetaEncabezado();
+                frmRecetas perfil = new frmRecetas(txtUsuario.Text);
                 perfil.MdiParent = this;
                 perfil.Show();
             }

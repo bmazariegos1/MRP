@@ -43,3 +43,12 @@ D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.C
 D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CopyComplete
 D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.dll
 D:\Escritorio\Proyectos\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.pdb
+C:\Users\jmora\Desktop\GitAnalisis\MRP\MRP\CONTROLADORMRP\bin\Debug\CONTROLADORMRP.dll
+C:\Users\jmora\Desktop\GitAnalisis\MRP\MRP\CONTROLADORMRP\bin\Debug\CONTROLADORMRP.pdb
+C:\Users\jmora\Desktop\GitAnalisis\MRP\MRP\CONTROLADORMRP\bin\Debug\MODELOMRP.dll
+C:\Users\jmora\Desktop\GitAnalisis\MRP\MRP\CONTROLADORMRP\bin\Debug\MODELOMRP.pdb
+C:\Users\jmora\Desktop\GitAnalisis\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csprojAssemblyReference.cache
+C:\Users\jmora\Desktop\GitAnalisis\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CoreCompileInputs.cache
+C:\Users\jmora\Desktop\GitAnalisis\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CopyComplete
+C:\Users\jmora\Desktop\GitAnalisis\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.dll
+C:\Users\jmora\Desktop\GitAnalisis\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.pdb

@@ -198,5 +198,10 @@ namespace VISTAMRP
         {
             validaciones.CampoNumerico(e);
         }
+
+        private void txtEstado_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

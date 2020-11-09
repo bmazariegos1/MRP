@@ -85,8 +85,8 @@ namespace VISTAMRP
             navegador1.DatosActualizar = dgvEstadoP;
             navegador1.procActualizarData();
             navegador1.procCargar();
-            navegador1.ayudaRuta = "AYUDAS/AyudasMRP.chm";
-            navegador1.ruta = "AyudaProduccion.html";
+            navegador1.ayudaRuta = "Ayudas/Ayudas.chm";
+            navegador1.ruta = "AyudaEProduccion.html";
         }
 
         private void txtEstado_TextChanged(object sender, EventArgs e)

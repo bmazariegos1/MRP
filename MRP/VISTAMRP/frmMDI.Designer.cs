@@ -60,6 +60,7 @@
             this.produccionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.procesoControlDeProducciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,8 +72,8 @@
             this.mantenimientosToolStripMenuItem,
             this.procesosToolStripMenuItem,
             this.toolsMenu,
-            this.helpMenu,
-            this.reportesToolStripMenuItem});
+            this.reportesToolStripMenuItem,
+            this.helpMenu});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
@@ -163,7 +164,8 @@
             this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.recepcionDePedidosToolStripMenuItem,
             this.pedidoDetalleToolStripMenuItem,
-            this.generarOrdenDeCompraToolStripMenuItem});
+            this.generarOrdenDeCompraToolStripMenuItem,
+            this.procesoControlDeProducciónToolStripMenuItem});
             this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
             this.procesosToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.procesosToolStripMenuItem.Text = "Procesos";
@@ -171,21 +173,21 @@
             // recepcionDePedidosToolStripMenuItem
             // 
             this.recepcionDePedidosToolStripMenuItem.Name = "recepcionDePedidosToolStripMenuItem";
-            this.recepcionDePedidosToolStripMenuItem.Size = new System.Drawing.Size(249, 22);
+            this.recepcionDePedidosToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.recepcionDePedidosToolStripMenuItem.Text = "3308 - Recepcion De Pedidos";
             this.recepcionDePedidosToolStripMenuItem.Click += new System.EventHandler(this.recepcionDePedidosToolStripMenuItem_Click);
             // 
             // pedidoDetalleToolStripMenuItem
             // 
             this.pedidoDetalleToolStripMenuItem.Name = "pedidoDetalleToolStripMenuItem";
-            this.pedidoDetalleToolStripMenuItem.Size = new System.Drawing.Size(249, 22);
+            this.pedidoDetalleToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.pedidoDetalleToolStripMenuItem.Text = "3309 - Pedido Detalle";
             this.pedidoDetalleToolStripMenuItem.Click += new System.EventHandler(this.pedidoDetalleToolStripMenuItem_Click);
             // 
             // generarOrdenDeCompraToolStripMenuItem
             // 
             this.generarOrdenDeCompraToolStripMenuItem.Name = "generarOrdenDeCompraToolStripMenuItem";
-            this.generarOrdenDeCompraToolStripMenuItem.Size = new System.Drawing.Size(249, 22);
+            this.generarOrdenDeCompraToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.generarOrdenDeCompraToolStripMenuItem.Text = "3310 - Generar Orden De Compra";
             this.generarOrdenDeCompraToolStripMenuItem.Click += new System.EventHandler(this.generarOrdenDeCompraToolStripMenuItem_Click);
             // 
@@ -304,6 +306,13 @@
             this.txtUsuario.TabIndex = 4;
             this.txtUsuario.Visible = false;
             // 
+            // procesoControlDeProducciónToolStripMenuItem
+            // 
+            this.procesoControlDeProducciónToolStripMenuItem.Name = "procesoControlDeProducciónToolStripMenuItem";
+            this.procesoControlDeProducciónToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
+            this.procesoControlDeProducciónToolStripMenuItem.Text = "3313 - Proceso Control de Producción";
+            this.procesoControlDeProducciónToolStripMenuItem.Click += new System.EventHandler(this.procesoControlDeProducciónToolStripMenuItem_Click);
+            // 
             // frmMDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -358,6 +367,7 @@
         private System.Windows.Forms.ToolStripMenuItem produccionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pedidoDetalleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem generarOrdenDeCompraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem procesoControlDeProducciónToolStripMenuItem;
     }
 }
 

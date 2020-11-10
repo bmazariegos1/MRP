@@ -30,5 +30,16 @@ namespace CONTROLADORMRP
             string Comando = string.Format("SELECT " + Campo1 + " ," + Campo2 + " FROM " + Tabla + " WHERE " + Campo1 + " = 3 or " + Campo1 + " = 4 or " + Campo1 + " = 5 ;");
             return Modelo.funcObtenerCamposCombobox(Comando);
         }
+
+        public OdbcDataReader funcEliminar_perfil(string Codigo)
+        {
+            string Consulta = "UPDATE  control_producto SET resultado_control_producto = 'Finalizado', estado_control_producto = 0 where pk_id_control_producto = " + Codigo + ";";
+            return Modelo.funcModificar(Consulta);
+        }
+        public OdbcDataReader funcConsultaDetalles(string Tabla, string CodPedido)
+        {
+            string Consulta = "SELECT * FROM " + Tabla + " Where fk_id_pedido_encabezado = " + CodPedido + ";";
+            return Modelo.funcConsulta(Consulta);
+        }
     }
 }

@@ -340,5 +340,23 @@ namespace VISTAMRP
                 MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
             }
         }
+
+        private void procesoControlDeProducciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (seguridad.PermisosAcceso("3313", txtUsuario.Text) == 1)
+            {
+                bit.user(txtUsuario.Text);
+                bit.insert("Ingreso a Produccion", 3313);
+                frmProduccion perfil = new frmProduccion(txtUsuario.Text);
+                perfil.MdiParent = this;
+                perfil.Show();
+            }
+            else
+            {
+                bit.user(txtUsuario.Text);
+                bit.insert("Trato de Ingresar a Produccion", 3313);
+                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
+            }
+        }
     }
 }

@@ -54,28 +54,29 @@
             // navegador1
             // 
             this.navegador1.BackColor = System.Drawing.Color.Transparent;
-            this.navegador1.Location = new System.Drawing.Point(13, 13);
-            this.navegador1.Margin = new System.Windows.Forms.Padding(4);
+            this.navegador1.Location = new System.Drawing.Point(10, 11);
             this.navegador1.Name = "navegador1";
-            this.navegador1.Size = new System.Drawing.Size(1412, 129);
+            this.navegador1.Size = new System.Drawing.Size(1059, 105);
             this.navegador1.TabIndex = 0;
             this.navegador1.Load += new System.EventHandler(this.navegador1_Load);
             // 
             // dgvPedido
             // 
             this.dgvPedido.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPedido.Location = new System.Drawing.Point(558, 131);
+            this.dgvPedido.Location = new System.Drawing.Point(418, 106);
+            this.dgvPedido.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvPedido.Name = "dgvPedido";
             this.dgvPedido.RowHeadersWidth = 51;
             this.dgvPedido.RowTemplate.Height = 24;
-            this.dgvPedido.Size = new System.Drawing.Size(832, 357);
+            this.dgvPedido.Size = new System.Drawing.Size(624, 290);
             this.dgvPedido.TabIndex = 1;
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(263, 149);
+            this.txtId.Location = new System.Drawing.Point(197, 121);
+            this.txtId.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(100, 22);
+            this.txtId.Size = new System.Drawing.Size(76, 20);
             this.txtId.TabIndex = 2;
             this.txtId.Tag = "fk_id_pedido_encabezado";
             this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
@@ -84,9 +85,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(112, 156);
+            this.label1.Location = new System.Drawing.Point(84, 127);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(124, 20);
+            this.label1.Size = new System.Drawing.Size(103, 17);
             this.label1.TabIndex = 3;
             this.label1.Text = "Id Encabezado";
             // 
@@ -94,9 +96,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(112, 197);
+            this.label2.Location = new System.Drawing.Point(84, 160);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 20);
+            this.label2.Size = new System.Drawing.Size(95, 17);
             this.label2.TabIndex = 4;
             this.label2.Text = "Codigo Linea";
             // 
@@ -104,9 +107,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(112, 236);
+            this.label3.Location = new System.Drawing.Point(84, 192);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(80, 20);
+            this.label3.Size = new System.Drawing.Size(66, 17);
             this.label3.TabIndex = 5;
             this.label3.Text = "Producto";
             // 
@@ -114,9 +118,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(112, 276);
+            this.label4.Location = new System.Drawing.Point(84, 224);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 20);
+            this.label4.Size = new System.Drawing.Size(67, 17);
             this.label4.TabIndex = 6;
             this.label4.Text = "Cantidad";
             // 
@@ -124,9 +129,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(112, 318);
+            this.label5.Location = new System.Drawing.Point(84, 258);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 20);
+            this.label5.Size = new System.Drawing.Size(49, 17);
             this.label5.TabIndex = 7;
             this.label5.Text = "Precio";
             // 
@@ -134,9 +140,10 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(112, 358);
+            this.label6.Location = new System.Drawing.Point(84, 291);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(77, 20);
+            this.label6.Size = new System.Drawing.Size(63, 17);
             this.label6.TabIndex = 8;
             this.label6.Text = "SubTotal";
             // 
@@ -145,11 +152,11 @@
             this.gbxEstado.Controls.Add(this.rbtnDesabilitado);
             this.gbxEstado.Controls.Add(this.rbtnHabilitado);
             this.gbxEstado.Font = new System.Drawing.Font("Rockwell", 9.75F);
-            this.gbxEstado.Location = new System.Drawing.Point(115, 401);
-            this.gbxEstado.Margin = new System.Windows.Forms.Padding(5);
+            this.gbxEstado.Location = new System.Drawing.Point(86, 326);
+            this.gbxEstado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gbxEstado.Name = "gbxEstado";
-            this.gbxEstado.Padding = new System.Windows.Forms.Padding(5);
-            this.gbxEstado.Size = new System.Drawing.Size(409, 87);
+            this.gbxEstado.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxEstado.Size = new System.Drawing.Size(307, 71);
             this.gbxEstado.TabIndex = 16;
             this.gbxEstado.TabStop = false;
             this.gbxEstado.Text = "Estado";
@@ -157,10 +164,10 @@
             // rbtnDesabilitado
             // 
             this.rbtnDesabilitado.AutoSize = true;
-            this.rbtnDesabilitado.Location = new System.Drawing.Point(219, 33);
-            this.rbtnDesabilitado.Margin = new System.Windows.Forms.Padding(5);
+            this.rbtnDesabilitado.Location = new System.Drawing.Point(164, 27);
+            this.rbtnDesabilitado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbtnDesabilitado.Name = "rbtnDesabilitado";
-            this.rbtnDesabilitado.Size = new System.Drawing.Size(138, 24);
+            this.rbtnDesabilitado.Size = new System.Drawing.Size(105, 20);
             this.rbtnDesabilitado.TabIndex = 7;
             this.rbtnDesabilitado.TabStop = true;
             this.rbtnDesabilitado.Text = "Deshabilitado";
@@ -170,10 +177,10 @@
             // rbtnHabilitado
             // 
             this.rbtnHabilitado.AutoSize = true;
-            this.rbtnHabilitado.Location = new System.Drawing.Point(32, 33);
-            this.rbtnHabilitado.Margin = new System.Windows.Forms.Padding(5);
+            this.rbtnHabilitado.Location = new System.Drawing.Point(24, 27);
+            this.rbtnHabilitado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rbtnHabilitado.Name = "rbtnHabilitado";
-            this.rbtnHabilitado.Size = new System.Drawing.Size(110, 24);
+            this.rbtnHabilitado.Size = new System.Drawing.Size(85, 20);
             this.rbtnHabilitado.TabIndex = 6;
             this.rbtnHabilitado.TabStop = true;
             this.rbtnHabilitado.Text = "Habilitado";
@@ -182,50 +189,56 @@
             // 
             // txtCodLinea
             // 
-            this.txtCodLinea.Location = new System.Drawing.Point(263, 192);
+            this.txtCodLinea.Location = new System.Drawing.Point(197, 156);
+            this.txtCodLinea.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCodLinea.Name = "txtCodLinea";
-            this.txtCodLinea.Size = new System.Drawing.Size(100, 22);
+            this.txtCodLinea.Size = new System.Drawing.Size(76, 20);
             this.txtCodLinea.TabIndex = 17;
             this.txtCodLinea.Tag = "cod_linea_pedido_detalle";
             // 
             // txtProducto
             // 
-            this.txtProducto.Location = new System.Drawing.Point(402, 236);
+            this.txtProducto.Location = new System.Drawing.Point(302, 192);
+            this.txtProducto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtProducto.Name = "txtProducto";
-            this.txtProducto.Size = new System.Drawing.Size(100, 22);
+            this.txtProducto.Size = new System.Drawing.Size(76, 20);
             this.txtProducto.TabIndex = 18;
             this.txtProducto.Tag = "fk_id_producto";
             this.txtProducto.TextChanged += new System.EventHandler(this.txtProducto_TextChanged);
             // 
             // txtCantidad
             // 
-            this.txtCantidad.Location = new System.Drawing.Point(263, 273);
+            this.txtCantidad.Location = new System.Drawing.Point(197, 222);
+            this.txtCantidad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(100, 22);
+            this.txtCantidad.Size = new System.Drawing.Size(76, 20);
             this.txtCantidad.TabIndex = 19;
             this.txtCantidad.Tag = "cantidad_pedido_detalle";
             // 
             // txtPrecioU
             // 
-            this.txtPrecioU.Location = new System.Drawing.Point(263, 313);
+            this.txtPrecioU.Location = new System.Drawing.Point(197, 254);
+            this.txtPrecioU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPrecioU.Name = "txtPrecioU";
-            this.txtPrecioU.Size = new System.Drawing.Size(100, 22);
+            this.txtPrecioU.Size = new System.Drawing.Size(76, 20);
             this.txtPrecioU.TabIndex = 20;
             this.txtPrecioU.Tag = "precio_unitario_pedido_detalle";
             // 
             // txtSubTotal
             // 
-            this.txtSubTotal.Location = new System.Drawing.Point(263, 353);
+            this.txtSubTotal.Location = new System.Drawing.Point(197, 287);
+            this.txtSubTotal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtSubTotal.Name = "txtSubTotal";
-            this.txtSubTotal.Size = new System.Drawing.Size(100, 22);
+            this.txtSubTotal.Size = new System.Drawing.Size(76, 20);
             this.txtSubTotal.TabIndex = 21;
             this.txtSubTotal.Tag = "subtotal_pedido_detalle";
             // 
             // txtEstado
             // 
-            this.txtEstado.Location = new System.Drawing.Point(532, 466);
+            this.txtEstado.Location = new System.Drawing.Point(399, 379);
+            this.txtEstado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtEstado.Name = "txtEstado";
-            this.txtEstado.Size = new System.Drawing.Size(10, 22);
+            this.txtEstado.Size = new System.Drawing.Size(8, 20);
             this.txtEstado.TabIndex = 22;
             this.txtEstado.Tag = "estado_pedido_detalle";
             this.txtEstado.Visible = false;
@@ -235,18 +248,19 @@
             // 
             this.cmbProducto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbProducto.FormattingEnabled = true;
-            this.cmbProducto.Location = new System.Drawing.Point(263, 233);
+            this.cmbProducto.Location = new System.Drawing.Point(197, 189);
+            this.cmbProducto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbProducto.Name = "cmbProducto";
-            this.cmbProducto.Size = new System.Drawing.Size(121, 24);
+            this.cmbProducto.Size = new System.Drawing.Size(92, 21);
             this.cmbProducto.TabIndex = 23;
             this.cmbProducto.SelectedIndexChanged += new System.EventHandler(this.cmbProducto_SelectedIndexChanged);
             // 
             // frmPedidoDetalle
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.ClientSize = new System.Drawing.Size(1412, 531);
+            this.ClientSize = new System.Drawing.Size(1059, 431);
             this.Controls.Add(this.cmbProducto);
             this.Controls.Add(this.txtEstado);
             this.Controls.Add(this.txtSubTotal);
@@ -264,9 +278,10 @@
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.dgvPedido);
             this.Controls.Add(this.navegador1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmPedidoDetalle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmPedidoDetalle";
+            this.Text = "3309 - Pedido Detalle";
             this.Load += new System.EventHandler(this.frmPedidoDetalle_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPedido)).EndInit();
             this.gbxEstado.ResumeLayout(false);

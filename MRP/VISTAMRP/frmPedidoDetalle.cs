@@ -10,15 +10,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace VISTAMRP
 {
-    public partial class frmRecetaEncabezado : Form
+    public partial class frmPedidoDetalle : Form
     {
         clsControladorProduccion Controlador = new clsControladorProduccion();
-        clsValidaciones valida = new clsValidaciones(); 
+        clsValidaciones valida = new clsValidaciones();
         string UsuarioAplicacion;
-        public frmRecetaEncabezado(string usuario)
+
+        public frmPedidoDetalle(string usuario)
         {
             InitializeComponent();
             rbtnHabilitado.Checked = true;
@@ -26,30 +26,31 @@ namespace VISTAMRP
             UsuarioAplicacion = usuario;
             navegador1.Usuario = UsuarioAplicacion;
         }
-
-
-        private void frmRecetaEncabezado_Load(object sender, EventArgs e)
-        {
-            CargarCombobox();
-        }
         public void CargarCombobox()
         {
-            //llenado de combobox de linea 
+            //llenado de combobox producto
             cmbProducto.DisplayMember = "nombre_producto";
             cmbProducto.ValueMember = "pk_id_producto";
             cmbProducto.DataSource = Controlador.funcObtenerCamposCombobox("pk_id_producto", "nombre_producto", "producto", "estado_producto");
             cmbProducto.SelectedIndex = -1;
-            
+
+           
+
         }
 
-        private void navegador1_Load_1(object sender, EventArgs e)
+        private void frmPedidoDetalle_Load(object sender, EventArgs e)
+        {
+            CargarCombobox();
+        }
+
+        private void navegador1_Load(object sender, EventArgs e)
         {
             List<string> CamposTabla = new List<string>();
             List<Control> lista = new List<Control>();
             //llenado de  parametros para la aplicacion 
-            navegador1.aplicacion = 3306;
-            navegador1.tbl = "recetas_encabezado";
-            navegador1.campoEstado = "estado_encabezado_receta";
+            navegador1.aplicacion = 3309;
+            navegador1.tbl = "pedido_detalle";
+            navegador1.campoEstado = "estado_pedido_detalle";
 
             //se agregan los componentes del formulario a la lista tipo control
 
@@ -88,13 +89,32 @@ namespace VISTAMRP
 
             navegador1.control = lista;
             navegador1.formulario = this;
-            navegador1.DatosActualizar = dgvRecetas;
+            navegador1.DatosActualizar = dgvPedido;
             navegador1.procActualizarData();
             navegador1.procCargar();
             navegador1.ayudaRuta = "AYUDAS/AyudasMRP.chm";
             navegador1.ruta = "AyudaActivos.html";
             rbtnHabilitado.Checked = true;
             rbtnDesabilitado.Checked = false;
+        }
+
+        private void cmbIdE_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtId_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void cmbProducto_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            txtEstado.Text = "1";
+            if (cmbProducto.SelectedIndex != -1)
+            {
+                txtProducto.Text = cmbProducto.SelectedValue.ToString();
+            }
         }
 
         private void txtProducto_TextChanged(object sender, EventArgs e)
@@ -111,15 +131,7 @@ namespace VISTAMRP
                     cmbProducto.SelectedIndex = -1;
                 }
             }
-        }
-
-        private void cmbProducto_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            txtEstado.Text = "1";
-            if (cmbProducto.SelectedIndex != -1)
-            {
-                txtProducto.Text = cmbProducto.SelectedValue.ToString();
-            }
+        
         }
 
         private void rbtnHabilitado_CheckedChanged(object sender, EventArgs e)
@@ -132,14 +144,9 @@ namespace VISTAMRP
             txtEstado.Text = "0";
         }
 
-        private void txtEstado_TextChanged_1(object sender, EventArgs e)
+        private void txtEstado_TextChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void txtProducto_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            valida.CampoNumerico(e);
         }
     }
 }

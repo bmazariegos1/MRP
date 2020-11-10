@@ -268,5 +268,59 @@ namespace VISTAMRP
                 MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
             }
         }
+
+        private void recepcionDePedidosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (seguridad.PermisosAcceso("3308", txtUsuario.Text) == 1)
+            {
+                bit.user(txtUsuario.Text);
+                bit.insert("Ingreso Recepcion Pedido", 3308);
+                frmRecepcionPedidos perfil = new frmRecepcionPedidos(txtUsuario.Text);
+                perfil.MdiParent = this;
+                perfil.Show();
+            }
+            else
+            {
+                bit.user(txtUsuario.Text);
+                bit.insert("Trato de Ingresar a Recepcion Pedido", 3308);
+                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
+            }
+        }
+
+        private void produccionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (seguridad.PermisosAcceso("3312", txtUsuario.Text) == 1)
+            {
+                bit.user(txtUsuario.Text);
+                bit.insert("Ingreso Reporte de Produccion", 3312);
+                frmReporteProduccion perfil = new frmReporteProduccion();
+                perfil.MdiParent = this;
+                perfil.Show();
+            }
+            else
+            {
+                bit.user(txtUsuario.Text);
+                bit.insert("Trato de Ingresar a Reporte Produccion ", 3312);
+                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
+            }
+        }
+
+        private void pedidoDetalleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (seguridad.PermisosAcceso("3309", txtUsuario.Text) == 1)
+            {
+                bit.user(txtUsuario.Text);
+                bit.insert("Ingreso Reporte de Produccion", 3309);
+                frmPedidoDetalle perfil = new frmPedidoDetalle(txtUsuario.Text);
+                perfil.MdiParent = this;
+                perfil.Show();
+            }
+            else
+            {
+                bit.user(txtUsuario.Text);
+                bit.insert("Trato de Ingresar a Reporte Produccion ", 3309);
+                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
+            }
+        }
     }
 }

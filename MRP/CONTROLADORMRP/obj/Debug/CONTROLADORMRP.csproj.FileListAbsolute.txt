@@ -61,3 +61,12 @@ C:\Users\Brian\Desktop\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.Co
 C:\Users\Brian\Desktop\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CopyComplete
 C:\Users\Brian\Desktop\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.dll
 C:\Users\Brian\Desktop\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.pdb
+C:\Users\jmora\Desktop\AnalisisNuevo\MRP\MRP\CONTROLADORMRP\bin\Debug\CONTROLADORMRP.dll
+C:\Users\jmora\Desktop\AnalisisNuevo\MRP\MRP\CONTROLADORMRP\bin\Debug\CONTROLADORMRP.pdb
+C:\Users\jmora\Desktop\AnalisisNuevo\MRP\MRP\CONTROLADORMRP\bin\Debug\MODELOMRP.dll
+C:\Users\jmora\Desktop\AnalisisNuevo\MRP\MRP\CONTROLADORMRP\bin\Debug\MODELOMRP.pdb
+C:\Users\jmora\Desktop\AnalisisNuevo\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csprojAssemblyReference.cache
+C:\Users\jmora\Desktop\AnalisisNuevo\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CoreCompileInputs.cache
+C:\Users\jmora\Desktop\AnalisisNuevo\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.csproj.CopyComplete
+C:\Users\jmora\Desktop\AnalisisNuevo\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.dll
+C:\Users\jmora\Desktop\AnalisisNuevo\MRP\MRP\CONTROLADORMRP\obj\Debug\CONTROLADORMRP.pdb

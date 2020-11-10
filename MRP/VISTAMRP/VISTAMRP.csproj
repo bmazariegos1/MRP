@@ -69,6 +69,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmOrdenCompraProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrdenCompraProducto.Designer.cs">
+      <DependentUpon>frmOrdenCompraProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrdenDeCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrdenDeCompra.Designer.cs">
+      <DependentUpon>frmOrdenDeCompra.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPedidoDetalle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,47 +105,17 @@
     <Compile Include="frmControlCalidad.Designer.cs">
       <DependentUpon>frmControlCalidad.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDetalleReceta.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmDetalleReceta.Designer.cs">
-      <DependentUpon>frmDetalleReceta.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmEmpleadoh.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmEmpleadoh.Designer.cs">
-      <DependentUpon>frmEmpleadoh.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmEstadoProduccion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmEstadoProduccion.Designer.cs">
       <DependentUpon>frmEstadoProduccion.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmInve.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmInve.Designer.cs">
-      <DependentUpon>frmInve.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmInventario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmInventario.Designer.cs">
-      <DependentUpon>frmInventario.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmMDI.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMDI.Designer.cs">
       <DependentUpon>frmMDI.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmOrdenes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmOrdenes.Designer.cs">
-      <DependentUpon>frmOrdenes.cs</DependentUpon>
     </Compile>
     <Compile Include="frmProduccion.cs">
       <SubType>Form</SubType>
@@ -185,6 +167,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmOrdenCompraProducto.resx">
+      <DependentUpon>frmOrdenCompraProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrdenDeCompra.resx">
+      <DependentUpon>frmOrdenDeCompra.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPedidoDetalle.resx">
       <DependentUpon>frmPedidoDetalle.cs</DependentUpon>
     </EmbeddedResource>
@@ -197,26 +185,11 @@
     <EmbeddedResource Include="frmControlCalidad.resx">
       <DependentUpon>frmControlCalidad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDetalleReceta.resx">
-      <DependentUpon>frmDetalleReceta.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmEmpleadoh.resx">
-      <DependentUpon>frmEmpleadoh.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmEstadoProduccion.resx">
       <DependentUpon>frmEstadoProduccion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmInve.resx">
-      <DependentUpon>frmInve.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmInventario.resx">
-      <DependentUpon>frmInventario.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmMDI.resx">
       <DependentUpon>frmMDI.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmOrdenes.resx">
-      <DependentUpon>frmOrdenes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmProduccion.resx">
       <DependentUpon>frmProduccion.cs</DependentUpon>

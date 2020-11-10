@@ -40,3 +40,9 @@ C:\Users\jmora\Desktop\AnalisisNuevo\MRP\MRP\MODELOMRP\obj\Debug\MODELOMRP.cspro
 C:\Users\jmora\Desktop\AnalisisNuevo\MRP\MRP\MODELOMRP\obj\Debug\MODELOMRP.csproj.CoreCompileInputs.cache
 C:\Users\jmora\Desktop\AnalisisNuevo\MRP\MRP\MODELOMRP\obj\Debug\MODELOMRP.dll
 C:\Users\jmora\Desktop\AnalisisNuevo\MRP\MRP\MODELOMRP\obj\Debug\MODELOMRP.pdb
+D:\Escritorio\Proyectos\CLONES\MRP\MRP\MODELOMRP\bin\Debug\MODELOMRP.dll
+D:\Escritorio\Proyectos\CLONES\MRP\MRP\MODELOMRP\bin\Debug\MODELOMRP.pdb
+D:\Escritorio\Proyectos\CLONES\MRP\MRP\MODELOMRP\obj\Debug\MODELOMRP.csprojAssemblyReference.cache
+D:\Escritorio\Proyectos\CLONES\MRP\MRP\MODELOMRP\obj\Debug\MODELOMRP.csproj.CoreCompileInputs.cache
+D:\Escritorio\Proyectos\CLONES\MRP\MRP\MODELOMRP\obj\Debug\MODELOMRP.dll
+D:\Escritorio\Proyectos\CLONES\MRP\MRP\MODELOMRP\obj\Debug\MODELOMRP.pdb

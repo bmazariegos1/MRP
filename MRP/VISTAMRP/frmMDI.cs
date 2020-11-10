@@ -310,7 +310,7 @@ namespace VISTAMRP
             if (seguridad.PermisosAcceso("3309", txtUsuario.Text) == 1)
             {
                 bit.user(txtUsuario.Text);
-                bit.insert("Ingreso Reporte de Produccion", 3309);
+                bit.insert("Ingreso Pedido Detalle", 3309);
                 frmPedidoDetalle perfil = new frmPedidoDetalle(txtUsuario.Text);
                 perfil.MdiParent = this;
                 perfil.Show();
@@ -318,7 +318,25 @@ namespace VISTAMRP
             else
             {
                 bit.user(txtUsuario.Text);
-                bit.insert("Trato de Ingresar a Reporte Produccion ", 3309);
+                bit.insert("Trato de Ingresar a Pedido Detalle ", 3309);
+                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
+            }
+        }
+
+        private void generarOrdenDeCompraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (seguridad.PermisosAcceso("3310", txtUsuario.Text) == 1)
+            {
+                bit.user(txtUsuario.Text);
+                bit.insert("Ingreso Generar Orden de Compra", 3310);
+                frmPedidoDetalle perfil = new frmPedidoDetalle(txtUsuario.Text);
+                perfil.MdiParent = this;
+                perfil.Show();
+            }
+            else
+            {
+                bit.user(txtUsuario.Text);
+                bit.insert("Trato de Ingresar a Generar Orden de Compra", 3310);
                 MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
             }
         }

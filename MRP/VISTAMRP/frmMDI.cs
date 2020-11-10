@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaVistaReporteador;
+using CapaVistaReporteador.Mantenimientos;
+using CapaVistaReporteador.ReportesModulos;
 using CapaVistaSeguridad;
 using CapaVistaSeguridad.Formularios;
 using CapaVistaSeguridad.Formularios.Mantenimientos;
@@ -19,6 +22,7 @@ namespace VISTAMRP
         //instancias de seguridad.
         clsFuncionesSeguridad seguridad = new clsFuncionesSeguridad();//instancia para los permisos por aplicacion
         clsVistaBitacora bit = new clsVistaBitacora();//instancia para la bitacora.
+
         public frmMDI()
         {
             InitializeComponent();
@@ -357,6 +361,54 @@ namespace VISTAMRP
                 bit.insert("Trato de Ingresar a Produccion", 3313);
                 MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
             }
+        }
+
+        private void gestorDeReportesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            clsVistaBitacora bit = new clsVistaBitacora();
+            frmGestorReportes frmFormulario;
+            bit.user(txtUsuario.Text);
+            bit.insert("Ingreso a Gestor de Reportes", 101);
+
+            frmFormulario = new frmGestorReportes();
+            frmFormulario.MdiParent = this;
+            frmFormulario.Show();
+        }
+
+        private void asignarReporteAMóduloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            clsVistaBitacora bit = new clsVistaBitacora();
+            frmReporteMod frmFormulario;
+            bit.user(txtUsuario.Text);
+            bit.insert("Ingreso a Asignación de Reportes a Módulos", 104);
+
+            frmFormulario = new frmReporteMod();
+            frmFormulario.MdiParent = this;
+            frmFormulario.Show();
+        }
+
+        private void asignarReporteAAplicaciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmReporteApp frmFormulario;
+            clsVistaBitacora bit = new clsVistaBitacora();
+            bit.user(txtUsuario.Text);
+            bit.insert("Ingreso a Asignación de Reportes a Aplicación ", 105);
+
+            frmFormulario = new frmReporteApp();
+            frmFormulario.MdiParent = this;
+            frmFormulario.Show();
+        }
+
+        private void verReportesDeMóduloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmReportesModulos frmFormulario;
+            clsVistaBitacora bit = new clsVistaBitacora();
+            bit.user(txtUsuario.Text);
+            bit.insert("Ingreso a Asignación de Reportes a Aplicación ", 102);
+
+            frmFormulario = new frmReportesModulos(7);
+            frmFormulario.MdiParent = this;
+            frmFormulario.Show();
         }
     }
 }

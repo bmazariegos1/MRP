@@ -176,13 +176,8 @@ D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.csprojAssemblyRefere
 D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmProductos.resources
 D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmCategoriaProducto.resources
 D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmControlCalidad.resources
-D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmDetalleReceta.resources
-D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmEmpleadoh.resources
 D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmEstadoProduccion.resources
-D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmInve.resources
-D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmInventario.resources
 D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmMDI.resources
-D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmOrdenes.resources
 D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmProduccion.resources
 D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmRecetaEncabezado.resources
 D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmRecetas.resources
@@ -542,3 +537,8 @@ C:\Users\CARLOS JAVIER\MRP2\MRP\MRP\VISTAMRP\bin\Debug\MODELOMRP.pdb
 C:\Users\CARLOS JAVIER\MRP2\MRP\MRP\VISTAMRP\bin\Debug\CapaModeloReporteador.pdb
 C:\Users\CARLOS JAVIER\MRP2\MRP\MRP\VISTAMRP\bin\Debug\CapaControladorReporteador.pdb
 C:\Users\CARLOS JAVIER\MRP2\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.csproj.CopyComplete
+D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmOrdenCompraProducto.resources
+D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmOrdenDeCompra.resources
+D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmPedidoDetalle.resources
+D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmRecepcionPedidos.resources
+D:\Escritorio\Proyectos\MRP\MRP\VISTAMRP\obj\Debug\VISTAMRP.frmReporteProduccion.resources

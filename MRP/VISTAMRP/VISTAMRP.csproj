@@ -44,6 +44,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Navegador-main\Navegador\Navegador\CapaVista\bin\Debug\CapaVistaNavegador.dll</HintPath>
     </Reference>
+    <Reference Include="CapaVistaReporteador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Reporteador-master\Version Final\Reporteador\CapaVista\bin\Debug\CapaVistaReporteador.dll</HintPath>
+    </Reference>
     <Reference Include="CapaVistaSeguridad, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\Objeto_Seguridad\ObjetoSeguridad\CapaVistaSeguridad\bin\Debug\CapaVistaSeguridad.dll</HintPath>

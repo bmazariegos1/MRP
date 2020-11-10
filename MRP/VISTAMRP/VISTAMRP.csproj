@@ -31,6 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="CapaControladorNavegador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Navegador-main\Navegador\Navegador\CapaVista\bin\Debug\CapaControladorNavegador.dll</HintPath>
@@ -50,9 +51,15 @@
     <Reference Include="CONTROLADORMRP">
       <HintPath>..\CONTROLADORMRP\bin\Debug\CONTROLADORMRP.dll</HintPath>
     </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -62,6 +69,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmPedidoDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPedidoDetalle.Designer.cs">
+      <DependentUpon>frmPedidoDetalle.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmProductos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +141,12 @@
     <Compile Include="frmProduccion.Designer.cs">
       <DependentUpon>frmProduccion.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRecepcionPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecepcionPedidos.Designer.cs">
+      <DependentUpon>frmRecepcionPedidos.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmRecetaEncabezado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,14 +165,29 @@
     <Compile Include="frmLineaProducto.Designer.cs">
       <DependentUpon>frmLineaProducto.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmReporteProduccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteProduccion.Designer.cs">
+      <DependentUpon>frmReporteProduccion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="RepoProduccion.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepoProduccion.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmPedidoDetalle.resx">
+      <DependentUpon>frmPedidoDetalle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmProductos.resx">
       <DependentUpon>frmProductos.cs</DependentUpon>
     </EmbeddedResource>
@@ -187,6 +221,9 @@
     <EmbeddedResource Include="frmProduccion.resx">
       <DependentUpon>frmProduccion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmRecepcionPedidos.resx">
+      <DependentUpon>frmRecepcionPedidos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmRecetaEncabezado.resx">
       <DependentUpon>frmRecetaEncabezado.cs</DependentUpon>
     </EmbeddedResource>
@@ -196,10 +233,20 @@
     <EmbeddedResource Include="frmLineaProducto.resx">
       <DependentUpon>frmLineaProducto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteProduccion.resx">
+      <DependentUpon>frmReporteProduccion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="RepoProduccion.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RepoProduccion.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

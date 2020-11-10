@@ -107,8 +107,8 @@ namespace VISTAMRP
             navegador1.DatosActualizar = dgvRecetas;
             navegador1.procActualizarData();
             navegador1.procCargar();
-            navegador1.ayudaRuta = "Ayudas/Ayudas.chm";
-            navegador1.ruta = "AyudaRecetaD.html";
+            navegador1.ayudaRuta = "AYUDAS/AyudasMRP.chm";
+            navegador1.ruta = "AyudaActivos.html";
             rbtnHabilitado.Checked = true;
             rbtnDesabilitado.Checked = false;
         }

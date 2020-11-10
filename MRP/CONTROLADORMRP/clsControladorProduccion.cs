@@ -24,5 +24,11 @@ namespace CONTROLADORMRP
             return Modelo.funcConsulta(Comando);
 
         }
+
+        public DataTable funcObtenerCamposComboboxMora(string Campo1, string Campo2, string Tabla, string Estado)
+        {
+            string Comando = string.Format("SELECT " + Campo1 + " ," + Campo2 + " FROM " + Tabla + " WHERE " + Campo1 + " = 3 or " + Campo1 + " = 4 or " + Campo1 + " = 5 ;");
+            return Modelo.funcObtenerCamposCombobox(Comando);
+        }
     }
 }

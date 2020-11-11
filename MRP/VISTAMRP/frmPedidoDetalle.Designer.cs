@@ -64,7 +64,7 @@
             // 
             this.dgvPedido.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPedido.Location = new System.Drawing.Point(418, 106);
-            this.dgvPedido.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvPedido.Margin = new System.Windows.Forms.Padding(2);
             this.dgvPedido.Name = "dgvPedido";
             this.dgvPedido.RowHeadersWidth = 51;
             this.dgvPedido.RowTemplate.Height = 24;
@@ -74,7 +74,7 @@
             // txtId
             // 
             this.txtId.Location = new System.Drawing.Point(197, 121);
-            this.txtId.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtId.Margin = new System.Windows.Forms.Padding(2);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(76, 20);
             this.txtId.TabIndex = 2;
@@ -153,9 +153,9 @@
             this.gbxEstado.Controls.Add(this.rbtnHabilitado);
             this.gbxEstado.Font = new System.Drawing.Font("Rockwell", 9.75F);
             this.gbxEstado.Location = new System.Drawing.Point(86, 326);
-            this.gbxEstado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxEstado.Margin = new System.Windows.Forms.Padding(4);
             this.gbxEstado.Name = "gbxEstado";
-            this.gbxEstado.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxEstado.Padding = new System.Windows.Forms.Padding(4);
             this.gbxEstado.Size = new System.Drawing.Size(307, 71);
             this.gbxEstado.TabIndex = 16;
             this.gbxEstado.TabStop = false;
@@ -165,7 +165,7 @@
             // 
             this.rbtnDesabilitado.AutoSize = true;
             this.rbtnDesabilitado.Location = new System.Drawing.Point(164, 27);
-            this.rbtnDesabilitado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbtnDesabilitado.Margin = new System.Windows.Forms.Padding(4);
             this.rbtnDesabilitado.Name = "rbtnDesabilitado";
             this.rbtnDesabilitado.Size = new System.Drawing.Size(105, 20);
             this.rbtnDesabilitado.TabIndex = 7;
@@ -178,7 +178,7 @@
             // 
             this.rbtnHabilitado.AutoSize = true;
             this.rbtnHabilitado.Location = new System.Drawing.Point(24, 27);
-            this.rbtnHabilitado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbtnHabilitado.Margin = new System.Windows.Forms.Padding(4);
             this.rbtnHabilitado.Name = "rbtnHabilitado";
             this.rbtnHabilitado.Size = new System.Drawing.Size(85, 20);
             this.rbtnHabilitado.TabIndex = 6;
@@ -190,7 +190,7 @@
             // txtCodLinea
             // 
             this.txtCodLinea.Location = new System.Drawing.Point(197, 156);
-            this.txtCodLinea.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCodLinea.Margin = new System.Windows.Forms.Padding(2);
             this.txtCodLinea.Name = "txtCodLinea";
             this.txtCodLinea.Size = new System.Drawing.Size(76, 20);
             this.txtCodLinea.TabIndex = 17;
@@ -199,7 +199,7 @@
             // txtProducto
             // 
             this.txtProducto.Location = new System.Drawing.Point(302, 192);
-            this.txtProducto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtProducto.Margin = new System.Windows.Forms.Padding(2);
             this.txtProducto.Name = "txtProducto";
             this.txtProducto.Size = new System.Drawing.Size(76, 20);
             this.txtProducto.TabIndex = 18;
@@ -209,7 +209,7 @@
             // txtCantidad
             // 
             this.txtCantidad.Location = new System.Drawing.Point(197, 222);
-            this.txtCantidad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCantidad.Margin = new System.Windows.Forms.Padding(2);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(76, 20);
             this.txtCantidad.TabIndex = 19;
@@ -218,16 +218,18 @@
             // txtPrecioU
             // 
             this.txtPrecioU.Location = new System.Drawing.Point(197, 254);
-            this.txtPrecioU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPrecioU.Margin = new System.Windows.Forms.Padding(2);
             this.txtPrecioU.Name = "txtPrecioU";
             this.txtPrecioU.Size = new System.Drawing.Size(76, 20);
             this.txtPrecioU.TabIndex = 20;
             this.txtPrecioU.Tag = "precio_unitario_pedido_detalle";
+            this.txtPrecioU.TextChanged += new System.EventHandler(this.txtPrecioU_TextChanged);
             // 
             // txtSubTotal
             // 
+            this.txtSubTotal.Enabled = false;
             this.txtSubTotal.Location = new System.Drawing.Point(197, 287);
-            this.txtSubTotal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSubTotal.Margin = new System.Windows.Forms.Padding(2);
             this.txtSubTotal.Name = "txtSubTotal";
             this.txtSubTotal.Size = new System.Drawing.Size(76, 20);
             this.txtSubTotal.TabIndex = 21;
@@ -236,7 +238,7 @@
             // txtEstado
             // 
             this.txtEstado.Location = new System.Drawing.Point(399, 379);
-            this.txtEstado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtEstado.Margin = new System.Windows.Forms.Padding(2);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(8, 20);
             this.txtEstado.TabIndex = 22;
@@ -249,7 +251,7 @@
             this.cmbProducto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbProducto.FormattingEnabled = true;
             this.cmbProducto.Location = new System.Drawing.Point(197, 189);
-            this.cmbProducto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbProducto.Margin = new System.Windows.Forms.Padding(2);
             this.cmbProducto.Name = "cmbProducto";
             this.cmbProducto.Size = new System.Drawing.Size(92, 21);
             this.cmbProducto.TabIndex = 23;
@@ -278,7 +280,7 @@
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.dgvPedido);
             this.Controls.Add(this.navegador1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmPedidoDetalle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "3309 - Pedido Detalle";

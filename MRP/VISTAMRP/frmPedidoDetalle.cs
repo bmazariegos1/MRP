@@ -148,5 +148,15 @@ namespace VISTAMRP
         {
 
         }
+
+        private void txtPrecioU_TextChanged(object sender, EventArgs e)
+        {
+            if(txtPrecioU.Text != "" && txtCantidad.Text != "")
+            {
+                double subTotal = (double.Parse(txtCantidad.Text.ToString()) * double.Parse(txtPrecioU.Text.ToString()));
+                txtSubTotal.Text = subTotal.ToString();
+            }
+            
+        }
     }
 }

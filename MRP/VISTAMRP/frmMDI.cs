@@ -333,7 +333,7 @@ namespace VISTAMRP
             {
                 bit.user(txtUsuario.Text);
                 bit.insert("Ingreso Generar Orden de Compra", 3310);
-                frmPedidoDetalle perfil = new frmPedidoDetalle(txtUsuario.Text);
+                frmOrdenDeCompra perfil = new frmOrdenDeCompra(txtUsuario.Text);
                 perfil.MdiParent = this;
                 perfil.Show();
             }
